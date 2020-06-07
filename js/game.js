@@ -11,7 +11,7 @@ button1.addEventListener("click",guess)
 function setRandom(){
     
     correctAns=Math.floor(1000+Math.random()*9000) +"";
-    console.log("Generated no is"+correctAns);
+   // console.log("Generated no is"+correctAns);
 }
 
 //used to show the latest result to the user
